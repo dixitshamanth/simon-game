@@ -55,8 +55,8 @@ body {
 .start{
   margin: 50px;
   display: inline-block;
-  height:80px;
-  width: 200px;
+  height:100px;
+  width: 500px;
   border: 10px solid black;
   border-radius: 20%;
 }
