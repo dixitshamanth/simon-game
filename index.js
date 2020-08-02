@@ -5,6 +5,8 @@ var level=0;
 
 $(document).keydown(startGame);
 
+$(".start").click(startGame);
+
 $(".btn").click(function(){
 
   //userClick=[];
