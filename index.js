@@ -3,9 +3,9 @@ var pattern = [];
 var userClick = [];
 var level=0;
 
-$(document).keydown(startGame);
 
-$(".start").click(startGame);
+
+$("#level-title").click(startGame);
 
 $(".btn").click(function(){
 
@@ -52,7 +52,7 @@ function checkClick(l){
         $("body").addClass("game-over");
         setTimeout(function(){
           $("body").removeClass("game-over");
-          $("h1").text("Press any key to restart");
+          $("h1").html("<u>Click here to restart<u>");
         },2000);
 
 
@@ -60,7 +60,7 @@ function checkClick(l){
 }
 
  function displayLevel(){
-    $("h1").text("Level "+level);
+    $("h1").html("Level "+level);
  }
 
     function createPattern(){

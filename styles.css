@@ -66,3 +66,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 
 }
+
+a:visited{
+    color:#FEF2BF;
+}
